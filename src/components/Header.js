@@ -1,7 +1,22 @@
-import React from 'react';
+import React from "react";
+//images
+import Logo from "../assets/logo-no-background.png";
 
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <header className="py-8">
+      <div className="container mx-auto">
+        <div className="flex justify-between items-centre">
+          {/* logo */}
+          <a href="#">
+            <img src={Logo} alt="logo" className="w-80" />
+          </a>
+          {/* button */}
+          <button className="btn btn-sm h-10">Let's Work Together</button>
+        </div>
+      </div>
+    </header>
+  );
 };
 
 export default Header;
