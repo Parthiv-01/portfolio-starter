@@ -12,7 +12,17 @@ const Header = () => {
             <img src={Logo} alt="logo" className="w-80" />
           </a>
           {/* button */}
-          <button className="btn btn-sm h-10">Let's Work Together</button>
+          <button
+            className="btn btn-sm h-10"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/parthivsadhukhan",
+                "_blank"
+              )
+            }
+          >
+            Let's Work Together
+          </button>
         </div>
       </div>
     </header>

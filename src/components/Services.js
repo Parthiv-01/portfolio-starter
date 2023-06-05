@@ -8,22 +8,22 @@ import { fadeIn } from "../variants";
 //services data
 const services = [
   {
-    name: "Web Development",
+    name: "Virtual Mouse",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci ad",
-    link: "Learn more",
+      "In this project, I have created a virtual mouse using PyAutoGUI, OpenCV and Python. It can be used to control the mouse pointer using hand gestures.",
+    link: "https://github.com/Parthiv-01/virtual-mouse",
   },
   {
-    name: "AI/ML Related Projects",
+    name: "My Portfolio",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci ad",
-    link: "Learn more",
+      "In this project, I have created my portfolio website using ReactJS, TailwindCSS and Framer Motion.",
+    link: "https://parthiv-sadhukhan.netlify.app",
   },
   {
-    name: "Competitive Programming",
+    name: "AI enabled Tic-Tac-Toe",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci ad",
-    link: "Learn more",
+      "In this project, I have created a Tic-Tac-Toe game using Python. The game is played between a human and an AI. The AI is unbeatable.",
+    link: "https://replit.com/@Parthiv-01/TicTacToe",
   },
 ];
 
@@ -45,7 +45,11 @@ const Services = () => {
               I am a undergraduate student and I have done some projects in
               these years.
             </h3>
-            <button className="btn btn-sm">See My Projects</button>
+            <button className="btn btn-sm">
+              <a href="https://github.com/Parthiv-01" target="_blank">
+                See My Projects
+              </a>
+            </button>
           </motion.div>
           {/*services*/}
           <motion.div
@@ -74,12 +78,12 @@ const Services = () => {
                       </p>
                     </div>
                     <div className="flex flex-col flex-1 items-end">
-                      <a
-                        href="#"
+                      <button
+                        onClick={() => window.open(link, "_blank")}
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
                       >
                         <BsArrowUpRight />
-                      </a>
+                      </button>
                       <a href="#" className="text-gradient text-sm">
                         {link}
                       </a>

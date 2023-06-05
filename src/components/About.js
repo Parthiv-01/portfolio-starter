@@ -36,9 +36,13 @@ const About = () => {
               Management, Kolkata. I am a web developer, coder and freelancer.
             </h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-              maiores rem, placeat in porro sint tempore magni suscipit nesciunt
-              accusamus?
+              I am an enthusiastic, self-motivated, reliable, responsible and
+              hard working person. I am a quick learner and always trying to
+              learn something new and challenging. I am passionate about my
+              work. Because I love what I do, I have a steady source of
+              motivation that drives me to do my best. I am a team player. I can
+              adapt to any kind of environment. I am always looking for new
+              opportunities to learn and grow.
             </p>
             {/*stats*/}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
