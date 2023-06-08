@@ -84,24 +84,26 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a
-                href="https://linkedin.com/in/parthivsadhukhan"
-                className="hover:bg-yellow-600 rounded-full p-2"
-              >
-                <FaLinkedin />
-              </a>
-              <a
-                href="https://github.com/Parthiv-01"
-                className="hover:bg-yellow-600 rounded-full p-2"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="https://twitter.com/sadhukh7"
-                className="hover:bg-yellow-600 rounded-full p-2"
-              >
-                <FaTwitter />
-              </a>
+              <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
+                <a
+                  href="https://linkedin.com/in/parthivsadhukhan"
+                  className="hover:bg-yellow-600 rounded-full p-2"
+                >
+                  <FaLinkedin />
+                </a>
+                <a
+                  href="https://github.com/Parthiv-01"
+                  className="hover:bg-yellow-600 rounded-full p-2"
+                >
+                  <FaGithub />
+                </a>
+                <a
+                  href="https://twitter.com/sadhukh7"
+                  className="hover:bg-yellow-600 rounded-full p-2"
+                >
+                  <FaTwitter />
+                </a>
+              </div>
             </motion.div>
           </div>
           {/*image*/}
