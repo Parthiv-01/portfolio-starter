@@ -17,7 +17,7 @@ const services = [
     name: "My Portfolio",
     description:
       "In this project, I have created my portfolio website using ReactJS, TailwindCSS and Framer Motion.",
-    link: "https://parthiv-sadhukhan.netlify.app",
+    link: "https://parthiv.vercel.app/",
   },
   {
     name: "AI enabled Tic-Tac-Toe",
