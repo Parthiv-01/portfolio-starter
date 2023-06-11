@@ -72,7 +72,10 @@ const Banner = () => {
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
               <button className="btn btn-lg">Contact Me</button>
-              <a href="#" className="text-gradient btn-link">
+              <a
+                href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:6b36efce-b330-3eea-b5a2-f574fd27e3d0"
+                className="text-gradient btn-link"
+              >
                 Download CV
               </a>
             </motion.div>
@@ -96,12 +99,6 @@ const Banner = () => {
                   className="hover:bg-yellow-600 rounded-full p-2"
                 >
                   <FaGithub />
-                </a>
-                <a
-                  href="https://twitter.com/sadhukh7"
-                  className="hover:bg-yellow-600 rounded-full p-2"
-                >
-                  <FaTwitter />
                 </a>
               </div>
             </motion.div>
