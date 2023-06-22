@@ -3,14 +3,9 @@ import React from "react";
 import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
-import {
-  SiLeetcode,
-  SiGeeksforgeeks,
-  SiCodingninjas,
-  SiCodechef,
-} from "react-icons/si";
+import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 //images
-import Img1 from "../assets/portfolio-img1.png";
+import Img1 from "../assets/img1.png";
 import Img2 from "../assets/top-programming-languages.jpg";
 import Img3 from "../assets/4314f99a4ffbb44f6d795cc3e0ad928c_res.jpeg";
 const Work = () => {
@@ -26,7 +21,7 @@ const Work = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
             >
-              <h2 className="h2 leading-tight text-accent">My Skills</h2>
+              <h2 className="h2 leading-tight text-accent">My Projects</h2>
               <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
                 <a
                   href="https://leetcode.com/parthivsadhukhan"
@@ -42,7 +37,6 @@ const Work = () => {
                 </a>
               </div>
             </motion.div>
-            {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
               <div className="group-hover:bg-black/50 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -54,14 +48,52 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">
-                  Web Development Frameworks
-                </span>
+                <span className="text-gradient">My Portfolio</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
                 <span className="text-3xl text-white">
-                  HTML ; CSS ; JS ; ReactJS ; Tailwind CSS ; PHP ; Python
+                  <a href="https://parthiv.vercel.app/">Visit here</a>
+                </span>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+              {/* overlay */}
+              <div className="group-hover:bg-black/50 w-full h-full absolute z-40 transition-all duration-300"></div>
+              {/* img */}
+              <img
+                src={Img1}
+                alt=""
+                className="group-hover:scale-150 transition-all duration-300"
+              />
+              {/* pretitle */}
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <span className="text-gradient">My Portfolio</span>
+              </div>
+              {/* title */}
+              <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
+                <span className="text-3xl text-white">
+                  <a href="https://parthiv.vercel.app/">Visit here</a>
+                </span>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+              {/* overlay */}
+              <div className="group-hover:bg-black/50 w-full h-full absolute z-40 transition-all duration-300"></div>
+              {/* img */}
+              <img
+                src={Img1}
+                alt=""
+                className="group-hover:scale-150 transition-all duration-300"
+              />
+              {/* pretitle */}
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <span className="text-gradient">My Portfolio</span>
+              </div>
+              {/* title */}
+              <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
+                <span className="text-3xl text-white">
+                  <a href="https://parthiv.vercel.app/">Visit here</a>
                 </span>
               </div>
             </div>
